@@ -1,0 +1,105 @@
+
+* {
+	Margin:0;
+	padding: 0;
+}
+body {
+	background-color: #f5f5f5;
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+}
+h1 {
+	font-family: 'oxygen', sans-serif;
+	text-align: center;
+	font-size: 175%;
+	color: #35404f;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding-top: 3% 0;
+}
+h2, h3, h4 {
+	font-family: 'oxygen', sans-serif;
+	text-align: center;
+	color: #35404f;
+	text-transform: uppercase;
+	letter-spacing: 1%;
+}
+p {
+	padding: 2%;
+	color: #525453;
+	text-align: justify;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+#wrapper {
+	margin: 0 auto;
+	max-width: 1120px;
+}
+.clearfix {
+	clear: both;
+}
+header {
+	width: 97%;
+}
+#logo {
+	float: left;
+	margin: 3% 0 0 5%;
+}
+.slider1 img {
+	width: 100%;
+}
+.bx-prev, .bx-next {
+	display: none;
+}
+.one-third {
+	width: 28%;
+	float: left;
+	margin: 2% 0 3% 4%;
+}
+.chart {
+	padding: 0 7%;
+}
+h2.welcome {
+	margin-top: 4%;
+}
+.left-col{
+	width: 60%;
+	float: left;
+	margin: 4% 0 4% 4%;
+}
+.slidebar {
+	width: 26%;
+	float: left;
+	margin: 4%;
+}
+.slidebar img {
+	opacity: .7;
+}
+footer {
+	background-color: #d3d3d3;
+	width: 100%;
+	padding-top: 1%;
+	overflow: auto;
+}
+.one-half {
+	width: 44%;
+	float: left;
+	margin: 2% 0 3% 4%;
+}
+footer h3 {
+	text-decoration: underline;
+}
+.footercontact {
+	text-align: center;
+}
+/*------------------- Media Queries  -----------------*/
+@media screen and (max-width: 769px;) {
+#wrapper {
+	margin-top: -1%;
+}
+.one-third {
+	width: 100%;
+	margin: 4% 0;
+}
